@@ -1,0 +1,94 @@
+-> Variáveis em JS
+    ° var ou let
+
+
+-> Identificadores(nome de cada variável)
+    ° podem começar com letra, $ ou _
+    ° não podem começar com números
+    ° é possível usar letrar ou números
+    ° é possível usar acentos e símbolos
+    ° não podem conter espaços
+    ° não podem ser palavras reservadas
+
+
+-> Dicas
+    ° maiúsculas e minúsculas fazem diferença
+    ° tente escolher nomes coerentes p/ as variáveis
+
+
+-> Tipo de dados
+typeof: retorna o tipo do operando
+    ° number
+        ° Infinity
+        ° NaN
+    ° string
+    ° boolean
+    ° null
+    ° undefined
+    ° object
+        ° Array
+    ° function
+
+
+-> Conversão
+String>Número
+    ° Number.parseInt(n): converte para inteiro
+    ° Number.parseFloat(n): converte para float
+    ° Number(n): converte para um número
+
+Número>String
+    ° String(n): converte para uma string
+    ° n.toString(): converte para uma string
+
+
+-> Formatação de Strings
+var s = 'JavaScript'
+    ° 'Eu estou aprendendo s'    //não faz interpolação
+    ° 'Eu estou aprendendo' + s  //usa concatenação
+    ° `Eu estou aprendendo ${s}` //usa template string
+
+s.length: retorna quantos caracteres a string 
+
+s.toUpperCase(): retorna a string toda em maiúscula
+
+s.toLowerCase(): retorna a string toda em minúscula
+
+
+-> Formatação de Números
+var n1 = 1545.5
+
+n1.toFixed(2): adiciona casas decimais ao número
+
+n1.toFixed(2).replace('.' , ','): troca o ponto por vírgula
+
+n1.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'}): transforma o número em dinheiro
+
+
+-> Operadores relacionais
+ <  >  <=  >= == !=
+
+-> Operadores aritméticos
+    +  -  /  %  **(potenciação)
+
+-> Operadores de atribuição
+    +=  -+  *=  %=
+
+-> Operador de incremento e decremento
+    ++  --
+
+-> Operador ternário
+    (expressão) ? true : false
+
+-> Operadores lógicos
+    !(negação)   &&(conjunção - AND)  ||(disjunção - OR)
+
+
+-> Precedência
+    () ** / ...
+    > < >= ...
+    !
+    &&
+    ||
+
+-> DOM: Document Object Model
+    Conjuto de objetos dentro do navegador que dá acesso aos componentes internos.
